@@ -12,6 +12,7 @@
       let l=0;
       let r=nums.length-1;
       while(r>l){
+         // Destructuring assignment for swapping values
           [nums[r],nums[l]]=[nums[l],nums[r]];
            l++;
           r--;
